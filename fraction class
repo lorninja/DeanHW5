@@ -1,4 +1,6 @@
-void displayNum(fraction f) //display fraction
+fraction multiply(fraction f1, fraction f2)
 {
-	cout<<"Full Number: "<<f.getWholeNum()<<" "<<f.getNumerator()<<"/"<<f.getDenominator()<<endl;
+    int sumNumerator = f1.getNumerator() * f2.getNumerator();
+    int sumDenomerator = f1.getDenominator() * f2.getDenominator();
+    return fraction(sumNumerator, sumDenomerator, 0);
 }
