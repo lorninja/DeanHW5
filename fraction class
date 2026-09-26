@@ -1,0 +1,30 @@
+
+
+
+class fraction
+{
+    public:
+    
+    fraction()
+    {
+    
+    }
+
+    fraction(int n, int d, int w)
+    {
+        numerator = n;
+        denominator = d;
+        wholeNum = w;
+    }
+
+    int getNumerator() {return numerator;}
+    int getDenominator() {return denominator;}
+    int getWholeNum() {return wholeNum;}
+
+    private:
+    int numerator;
+    int denominator;
+    int wholeNum;
+
+  
+};
